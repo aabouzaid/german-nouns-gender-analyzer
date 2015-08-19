@@ -15,6 +15,8 @@ Anyway, in German, this is not the best way to determine the noun gender, there 
 ###Technical details:
 I tested this script with two data sets "**dict.cc**", and "**Wiktionary**".
 
+<br>
+
 #####Dict.cc version (About 334,000 words):
 I downloaded data set from dict.cc, but due to its license I can't share the data itself,
 you can find more information about this data set on following URL:
@@ -28,6 +30,8 @@ I extracted single nouns only from dictionary using Regex and "grep" command (th
 ```
 **Final result example:**
 > Apfel {m}
+
+<br>
 
 #####Wiktionary.org version (About 50,000 words):
 I donwloaded this data set from the following URL:<br>
@@ -43,8 +47,12 @@ Then extracted single nouns only using next combination (this one-liner):
 **Final result example:**
 > Apfel {m}
 
+<br>
+
 ###How to use:
   > python german-nouns-gender-analyzer.py nouns_with_gender.txt
+
+<br>
 
 ###Output example:
 This example of "**dict.cc**" data set.
