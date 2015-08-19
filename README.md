@@ -2,7 +2,7 @@ Analyzer of German nouns gender.
 ==================
 
 ###Non-Technical details:
-This a simple python script counts the frequency of last character in every German noun based on the noun gender to find the percentage of this frequency, so you can guess if you don't know what's noun gender :D
+This is a simple python script counts the frequency of last character in every German noun based on the noun gender to find the percentage of this frequency, so you can guess if you don't know what's noun gender :D
 
 The German language has 3 genders for nouns: Masculine, Feminine, Neutral. Unlike English which has one article "The", German has many articles change based on the grammatical case.
 Nominativ, Akkusativ, Dativ, Genitiv! ... It's a long story :D
