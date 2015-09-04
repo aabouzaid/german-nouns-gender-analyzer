@@ -132,5 +132,6 @@ print "Total number of words: (%d) words." % (total_words)
 for gender in gender_counts.keys():
   gender_statistics(gender)
 
-print "\nCharacters statistics:\n#: \tMasculine \t\tFeminine \t\tNeutral"
+print "\nCharacters statistics:\n#: \tMasculine \tFeminine \tNeutral"
+print '-' * 54
 statistics_result()
