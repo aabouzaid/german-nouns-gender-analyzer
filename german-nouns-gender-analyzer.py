@@ -129,7 +129,7 @@ for noun in words_file.split("\n"):
 #Print final result: Total number of words, total number of every gender,
 #and frequency of character for every gender.
 print "Total number of words: (%d) words." % (total_words)
-for gender in gender_counts.keys():
+for gender in sorted(gender_counts.keys()):
   gender_statistics(gender)
 
 print "\nCharacters statistics:\n#: \tMasculine \tFeminine \tNeutral"
