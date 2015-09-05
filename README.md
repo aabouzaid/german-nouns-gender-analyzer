@@ -60,8 +60,8 @@ This example of "**dict.cc**" data set.
 ```
 Total number of words: (334399) words.
  - Feminine: 145711 (43.57%)
- - Neutral: 69784 (20.87%)
  - Masculine: 118905 (35.56%)
+ - Neutral: 69784 (20.87%)
 
 Characters statistics:
 #:  Masculine        Feminine          Neutral
